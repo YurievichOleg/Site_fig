@@ -3,24 +3,28 @@
     padding: 0;
 }
 
+.top {
+    padding-bottom: 99px;
+}
+
 .header {
-    padding-top: 39;
-    padding-bottom: 39;
+    padding-top: 39px;
+    padding-bottom: 39px;
 }
 
 .top__content {
-    margin-top: 160;
-    margin-bottom: 197;
+    margin-top: 160px;
+    margin-bottom: 197px;
 }
 
 .subtitle {
-    margin-bottom: 10;
+    margin-bottom: 10px;
 }
 
 .title {
-    margin-bottom: 40;
+    margin-bottom: 40px;
 }
 
-.top__content__info__buttoms {
-    margin-top: 50;
+.top__content__info__buttons {
+    margin-top: 50px;
 }
