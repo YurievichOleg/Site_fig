@@ -177,3 +177,49 @@ body {
     gap: 72px;
     margin-bottom: 99px;
 }
+
+
+/* div class = "content"*/
+.content {
+    display: grid;
+    grid-template-columns: repeat(3, 362px);
+    justify-content: center;
+    gap: 30px;
+    padding-top: 264px;
+    padding-bottom: 243px;
+}
+
+
+.item {
+    background: #132035;
+    border-radius: 10px;
+    padding: 30px;
+    display: grid;
+    justify-items: center;
+    gap: 30px;
+}
+
+.item__heading {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 125%;
+    text-align: center;
+    color: #FFFFFF;
+
+}
+
+.item__text {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 160%;
+    text-align: center;
+    color: #FFFFFF;
+
+}
+
+.item__big {
+    grid-area: 2/1/4/3;
+    gap: 60px;
+}
